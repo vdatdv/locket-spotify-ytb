@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>VINHDAT Locket + Spotify DNS</string>
+	<key>PayloadDescription</key>
+	<string>DNS HTTPS chi ap dung cho cac mien Locket/Spotify duoc liet ke; khong mo khoa Premium.</string>
+	<key>PayloadIdentifier</key>
+	<string>com.vinhdat.locketgold.profile</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>905B64EE-A87D-4939-A49D-6E726878F7E2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadOrganization</key>
+	<string>VINHDAT</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://my.ublockdns.com/z451ak95</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>spotify.com</string>
+					<string>spclient.wg.spotify.com</string>
+					<string>scdn.co</string>
+					<string>api.revenuecat.com</string>
+					<string>firebaseremoteconfig.googleapis.com</string>
+				</array>
+				<key>SupplementalMatchDomainsNoSearch</key>
+				<true/>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadIdentifier</key>
+			<string>com.vinhdat.locketgold.dns</string>
+			<key>PayloadUUID</key>
+			<string>817F74FA-6CA5-4A1D-A30F-1366D26A0F14</string>
+			<key>PayloadDisplayName</key>
+			<string>VINHDAT Locket + Spotify DNS</string>
+			<key>PayloadOrganization</key>
+			<string>VINHDAT</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
